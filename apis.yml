@@ -1,7 +1,27 @@
 aid: spill
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spill.png
 name: Spill
-description: Spill is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Spill is a UK-based employee assistance programme (EAP) that delivers mental
+  health support to employees directly inside the tools teams already use, such
+  as Slack and Microsoft Teams. The platform offers same-day, message-based
+  counselling, structured multi-session therapy courses for specific mental
+  health conditions, drop-in group sessions, manager mental-health training, and
+  self-guided wellbeing content, all through a single subscription. Spill serves
+  over 600 companies on month-to-month terms and is backed by Seedcamp. It is a
+  B2B software-as-a-service wellbeing product rather than an API provider; no
+  public developer API, OpenAPI specification, or SDK has been published.
 url: https://raw.githubusercontent.com/api-evangelist/spill/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Employee Assistance Program
+- Wellbeing
+- HR Tech
+- Counselling
+- Therapy
+- Slack
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://spill.chat
+  url: https://www.spill.chat
+- type: Blog
+  url: https://www.spill.chat/blog
+- type: Pricing
+  url: https://www.spill.chat/pricing
+- type: TermsOfService
+  url: https://www.spill.chat/legals/ts-and-cs
+- type: PrivacyPolicy
+  url: https://spill.notion.site/Privacy-Notice-4109557a65d440d69b70f443c2b14a4a
+- type: Login
+  url: https://app.spill.chat/signin
+- type: Support
+  url: mailto:hi@spill.chat
+- type: DomainSecurity
+  url: security/spill-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
